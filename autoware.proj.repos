@@ -67,6 +67,14 @@ repositories:
     type: git
     url: https://github.com/tier4/tamagawa_imu_driver.git
     version: ros2
+  vendor/kvaser_interface:
+    type: git
+    url: https://github.com/astuff/kvaser_interface.git
+    version: dashing-devel
+  vendor/astuff_sensor_msgs:
+    type: git
+    url: https://github.com/astuff/astuff_sensor_msgs.git
+    version: dashing-devel
 
 #  vendor/lanelet2:
 #    type: git
