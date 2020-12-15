@@ -68,6 +68,16 @@ repositories:
     url: https://github.com/tier4/tamagawa_imu_driver.git
     version: ros2
 
+# for experiment 20201216-18
+  vendor/g30esli_interface:
+    type: git
+    url: git@github.com:tier4/g30esli_interface.git
+    version: ros2-no-socketcan_bridge-depend
+  vendor/g30esli_interface_awiv_adapter:
+    type: git
+    url: git@github.com:tier4/g30esli_interface_awiv_adapter.git
+    version: ros2
+
 #  vendor/lanelet2:
 #    type: git
 #    url: https://github.com/fzi-forschungszentrum-informatik/Lanelet2.git
