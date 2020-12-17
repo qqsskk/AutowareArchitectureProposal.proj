@@ -3,16 +3,16 @@ repositories:
   autoware/pilot.auto:
     type: git
     url: https://github.com/tier4/pilot.auto.git
-    version: ros2
+    version: experiment-20201216-18-moricoro
   autoware/launcher:
     type: git
     url: https://github.com/tier4/autoware_launcher.iv.universe.git
-    version: ros2
+    version: experiment-20201216-18-moricoro
   # description
   description/sensor/sensor_description:
     type: git
     url: https://github.com/tier4/sensor_description.iv.universe.git
-    version: ros2
+    version: experiment-20201216-18-moricoro
   description/sensor/velodyne_simulator:
     type: git
     url: https://github.com/tier4/velodyne_simulator.git
@@ -21,6 +21,10 @@ repositories:
     type: git
     url: https://github.com/tier4/lexus_description.iv.universe.git
     version: ros2
+  description/vehicle/gc_description:
+    type: git
+    url: git@github.com:tier4/ros2_gc_description.git
+    version: experiment-20201216-18-moricoro
   # simulator
   simulator/planning_simulator:
     type: git
@@ -90,11 +94,11 @@ repositories:
 #    type: git
 #    url: https://github.com/Livox-SDK/livox_ros_driver.git
 #    version: v2.5.0
-#  vendor/velodyne_vls:
-#    type: git
-#    url: https://github.com/tier4/velodyne_vls.git
-#    version: tier4/ros2
-  # calibration
+  vendor/velodyne_vls:
+    type: git
+    url: https://github.com/tier4/velodyne_vls.git
+    version: experiment-20201216-18-moricoro
+# calibration
 #  calibration/tunable_static_tf_broadcaster:
 #    type: git
 #    url: https://github.com/tier4/tunable_static_tf_broadcaster.git
