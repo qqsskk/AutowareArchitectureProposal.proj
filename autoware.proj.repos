@@ -1,8 +1,8 @@
 repositories:
   # autoware
-  autoware/pilot.auto:
+  autoware/AutowareArchitectureProposal.IV:
     type: git
-    url: git@github.com:tier4/pilot.auto.git
+    url: git@github.com:tier4/AutowareArchitectureProposal.IV.git
     version: v0.6.0
   autoware/launcher:
     type: git
